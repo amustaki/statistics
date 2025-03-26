@@ -1,0 +1,10 @@
+Assume for this part that the total count for every sample is 5000 (i.e., sum of column = 5000).
+Imagine there was a row (gene G) in this dataset for which the count is expected to be 1 in 10% of
+samples and 0 in the remaining 90% of samples. We are doing an experiment where we would like to
+know if the expression of gene G changes in experimental vs control conditions, and we will measure n
+samples (single cells) from each condition. Plot the statistical power to detect a 10% increase in the
+expression of G in experimental vs control at Bonferroni-corrected p < 0.05 as a function of n, assuming
+that we will be performing a similar test for significance on 1000 genes total. How many samples from
+each condition do we need to measure to achieve a power of 95%?
+(Make the simplifying assumption that the counts for this gene follow a Poisson distribution. There are
+many potential statistical tests you may use; for simplicity feel free to use a t-test.
